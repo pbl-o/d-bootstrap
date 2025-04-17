@@ -1,0 +1,101 @@
+
+/*General Settings (Color/Font)*/
+:root{
+
+--ultramarine: #212529;
+--gray: #707070;
+--boolight: #F8F9FA;
+--bootwhite: #fff;
+--bootsuccess: #28a745;
+}
+
+html{
+    font-family: "Roboto", sans-serif;
+}
+
+.roboto-light{
+    font-weight: 300;
+}
+
+.roboto-medium{
+    font-weight: 500;
+}
+
+/*root colors from proptotype*/
+.greencuppon{
+    background-color:  var(--bootsuccess);
+}
+.greencuponfont{
+    color: var(--bootsuccess);
+}
+.whitecuppon{
+    background-color:  var(--bootwhite);
+}
+.whitecuponfont{
+    color:   var(--bootwhite);
+}
+.lightcuppon{
+    background-color:  var(--bootlight);
+}
+.lightcuponfont{
+    color:  var(--bootlight);
+}
+.graycuppon{
+    background-color:  var(--gray);
+}
+.graycuponfont{
+    color:  var(--gray);
+}
+.ultramarinecuppon{
+    background-color:  var(--ultramarine);
+}
+.ultramarinecuponfont{
+    color:  var(--ultramarine);
+}
+
+
+/*Customized - Logo*/
+
+
+.logo{
+    width: 8rem;
+}
+
+
+.logo-set{
+    width: 8rem;
+    transition: .2s ease-in-out;
+   
+}
+
+.logo-set:hover{
+    width: 8.5rem;
+   
+}
+
+
+/*Customized - Font*/
+
+.blur{
+    filter:blur(0);
+    opacity: 0.5;
+    transition: .2s ease-in-out;
+}
+
+.blur:hover{
+    filter:blur(.5px);
+    opacity: 1;
+}
+
+.disabled-text{
+    opacity: 0.3;
+}
+
+/*Customized - Icon*/
+
+
+.fas.fa-map-marker-alt{
+    padding:.3rem;
+    opacity: .5;
+}
+
